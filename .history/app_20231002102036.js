@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const http_errors_1 = __importDefault(require("http-errors"));
 const express_1 = __importDefault(require("express"));
 const path_1 = __importDefault(require("path"));
-const cookie_parser_1 = __importDefault(require("cookie-parser"));
+const cookie_parser_1 = __importDefault(require("cookie-parser;"));
 const morgan_1 = __importDefault(require("morgan"));
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -30,3 +30,4 @@ app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error');
 });
+//# sourceMappingURL=app.js.map
