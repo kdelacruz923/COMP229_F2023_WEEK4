@@ -1,6 +1,6 @@
-import  express from 'express';
-const router = express.Router();
-export default router;
+var express = require('express');
+var router = express.Router();
+
 
 
 /* GET home page. */

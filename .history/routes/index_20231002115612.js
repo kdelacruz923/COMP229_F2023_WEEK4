@@ -1,4 +1,4 @@
-import  express from 'express';
+var express = require
 const router = express.Router();
 export default router;
 
