@@ -13,35 +13,35 @@ router.get('/', function(req, res, next)
 /* GET home page. */
 router.get('/home', function(req, res, next)
 {
-  res.render('index', { title: 'Home',page: 'home' });
+  res.render('index', { title: 'Home' });
   
 });
 
 /* GET About page. */
 router.get('/about', function(req, res, next)
 {
-  res.render('index', { title: 'About Us',page: 'about' });
+  res.render('index', { title: 'About' });
   
 });
 
 /* GET Projects page. */
 router.get('/projects', function(req, res, next)
 {
-  res.render('index', { title: 'Our Projects',page: 'projects' });
+  res.render('index', { title: 'Projects' });
   
 });
 
 /* GET Services page. */
 router.get('/services', function(req, res, next)
 {
-  res.render('index', { title: 'Our Services',page: 'services' });
+  res.render('index', { title: 'Services' });
   
 });
 
 /* GET Contact page. */
 router.get('/contact', function(req, res, next)
 {
-  res.render('index', { title: 'Contact Us',page: 'contact' });
+  res.render('index', { title: 'Contact' });
   
 });
 

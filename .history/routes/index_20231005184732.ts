@@ -20,14 +20,14 @@ router.get('/home', function(req, res, next)
 /* GET About page. */
 router.get('/about', function(req, res, next)
 {
-  res.render('index', { title: 'About Us',page: 'about' });
+  res.render('index', { title: 'About',page: 'about' });
   
 });
 
 /* GET Projects page. */
 router.get('/projects', function(req, res, next)
 {
-  res.render('index', { title: 'Our Projects',page: 'projects' });
+  res.render('index', { title: 'Projects',page: 'projects' });
   
 });
 
