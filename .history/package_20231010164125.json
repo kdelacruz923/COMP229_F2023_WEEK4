@@ -4,7 +4,7 @@
   "private": true,
   "description": "Demo Project for COMP229 - Week5",
   "main": "index.js",
-  "repository": "https://github.com/kdelacruz923/COMP229_F2023_WEEK5.git",
+  "repository": "https://github.com/kdelacruz923/COMP229_F2023_WEEK4.git",
   "author": "Karen Dela Cruz",
   "license": "MIT",
   "scripts": {

@@ -15,8 +15,8 @@ export default app;      //exports app as the default object for this module
 import * as DBConfig from "./db";
 //useNewUrlParser - deprecated in mongoose v6.0.0
 //mongoose.connect(DBConfig.LocalURI, {useNewUrlParser:true, useUnifiedTopology:true});
-//mongoose.connect('mongodb://127.0.0.1:27017/clothing_store');
-mongoose.connect('DBConfig.LocalURI');
+mongoose.connect('mongodb://127.0.0.1:27017/clothing_store');
+mongoose.connect('mongodb://127.0.0.1:27017/clothing_store');
 
 
 
